@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GTA V"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGenere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acció"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPlataforma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PC"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any: 2013"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPreu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preu: 29.99 €"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPuntuacio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puntuació: 9.5"
+        android:textSize="16sp" />
+
+</LinearLayout>
